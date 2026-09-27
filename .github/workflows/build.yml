@@ -18,5 +18,4 @@ jobs:
           platforms: |
             - name: rp2040:rp2040
               source-url: https://github.com/earlephilhower/arduino-pico/releases/download/global/package_rp2040_index.json
-          sketch-paths: .
-
+          sketch-paths: ./pico_blink.ino
